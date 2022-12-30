@@ -1,0 +1,54 @@
+input[name="search"] {
+    border: none;
+    width: 450px;
+    outline: none;
+}
+
+#addData {
+    background: linear-gradient(90deg, #ff9100 0%, #008116 100%);
+    border: none;
+    color: #fff;
+    box-shadow: 0px 1px 3px grey;
+}
+
+.msg {
+    color: red;
+    font-size: small;
+}
+
+.invalid {
+    border-color: red;
+}
+
+.valid {
+    border-color: green;
+}
+
+thead td {
+    font-family: 'Ubuntu';
+    color: grey;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+tbody {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+}
+
+.d-block {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.d-block:hover {
+    color: #fff;
+    transform: scale(1.2);
+    box-shadow: 0px 1px 3px black;
+}
+
